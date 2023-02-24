@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+
+    
+    <h1>회원가입</h1>
+        <form action="" method="post">
+            <fieldset>
+                <legend>필수입력사항</legend>
+                <table>
+                    <tr>
+                        <th>ID</th>
+                        <td><input type="text" name="inputId" required></td>
+                        <td><button>중복 확인</button></td>
+                    </tr>
+                    <tr>
+                        <th>비밀번호</th>
+                        <td colspan="2"><input type="password" size="30" name="inputPw" required></td>
+                    </tr>
+                    <tr>
+                        <th>비밀번호</th>
+                        <td colspan="2"><input type="password" size="30" name="inputPw1" required></td>
+                    </tr>
+                    <tr>
+                        <th>Email</th>
+                        <td><input type="password" name="inputPw1" required></td>
+                        <td><select name="sel" id="select1">
+                            <option value="" sected>직접입력</option>
+                            <option value="naver">Naver</option>
+                            <option value="google">Google</option>
+                        </select></td>
+                    </tr>
+                </table>
+            </fieldset>
+
+            <fieldset>
+                <legend>추가 정보</legend>
+                <p>프로필 사진<input type="file"></p>
+                <p>성별: 
+                    <input type="radio" name="gender" id="man"><label for="man">남자</label>
+                    <input type="radio" name="gender" id="woman"><label for="woman">여자</label>
+                </p>
+                <p>생년월일:
+                    <input type="date">
+                </p>
+                <p>
+                    취미<br>
+                    <input type="checkbox" name="hobby" id="baseball"><label for="baseball">야구</label>
+                    <input type="checkbox" name="hobby" id="baseball"><label for="baseball">야구</label>
+                    <input type="checkbox" name="hobby" id="baseball"><label for="baseball">야구</label><br>
+                    <input type="checkbox" name="hobby" id="baseball"><label for="baseball">야구</label>
+                    <input type="checkbox" name="hobby" id="baseball"><label for="baseball">야구</label><br>
+                    <input type="checkbox" name="hobby" id="baseball"><label for="baseball">야구</label><br>
+                </p>
+                <p>
+
+                    <textarea name="" id="" cols="30" rows="5" style="resize: none;"></textarea>
+                    <ol type="I" reversed>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                    </ol>
+                </p>
+            </fieldset>
+            <input type="time">
+            <input type="range" step="10">
+            <input type="url" value="http://">
+            <button>1</button>
+            <button>2</button>
+            <button>3</button>
+            <input type="number">
+
+        </form>
+        
+</body>
+</html>
